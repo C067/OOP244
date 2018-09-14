@@ -1,0 +1,18 @@
+/*
+Name: Callum Dodge
+Workshop: Workshop 1
+Date: May 5, 2018
+Section: OOP244SDD
+*/
+
+1. A namespace in programming is a variable scope that encloses a specific list of functions for a program. A
+namespace is kind of like a flag set as a global scope in order to enter a specific set of functions only if we want it to. Namespace is also used to avoid naming conflict between different programs. 
+
+2. Header files are used for declaration purposes. We use header files to declare any variables, functions, structs and more so they can be used within seperate files. Header files can also be used for organization purposes. 
+
+3. When compiling, you should only compile files that are programming oriented. The reason for this is because 
+header files are already included within the c++ files with the command, include "". If the header files are already included there's no reason to compile with the c++ files. 
+
+4. When including files we should never include .cpp files with our original files. The reason for this is because .cpp files may include different functions either relevent or unrelevent to our program but these functions won't work without their prototypes. Instead of including the .cpp files we should include the header file related to the function we would want to use. 
+
+5. The main thing I learned in this lab was how to use a namespace and the reason for splitting a .cpp file into different files. I learned that namespace could be used to enter it only if we want to use that specific namespace or those specific functions. I also learned that splitting a file is not used for organizational purposes but to sperate each function or each code by relevent data. 
